@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 
-const port = 3000
-app.listen(port, () => console.log("Server starting..."))
+const port = 5000
+app.listen(port || 80, () => console.log("Server starting..."))
 
 app.use(express.static('public'))
 app.use(express.json())

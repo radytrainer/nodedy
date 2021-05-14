@@ -24,7 +24,7 @@ let requestComment = (response) => {
 
 
 let loadComment = () => {
-    const url = "http://localhost:3000/post";
+    const url = "https://nodedy.herokuapp.com/post";
     axios.get(url).then(requestComment);
     
 }
@@ -37,7 +37,7 @@ let sendComment = (event) => {
         username: username,
         comment: comment
     }
-    const url = "http://localhost:3000/post";
+    const url = "https://nodedy.herokuapp.com/post";
     axios.post(url, newComment).then(requestComment);
 }
 

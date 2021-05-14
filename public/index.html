@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poster</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/emojiPicker.js" ></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="username">
+        <input type="text" placeholder="Enter name" id="username" />
+      </div>
+      <div class="post">
+        <div class="post-img">
+          <img src="images/water.jpg" alt="" />
+        </div>
+        <div class="post-comment">
+          <div class="comment">
+              <ul></ul>
+          </div>
+          <div class="add-comment">
+            <input
+              type="text"
+              id="comment"
+              placeholder="Comment.."
+              data-emoji-picker="true"
+            />
+            <!-- <textarea id="comment" placeholder="Comment..."></textarea> -->
+            <button id="send-comment" disabled>SEND</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+ 
+  <script>
+     
+  </script>
+</html>

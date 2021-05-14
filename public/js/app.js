@@ -63,4 +63,5 @@ btnSend.addEventListener('click', sendComment);
 // emoji
 new EmojiPicker();
 
-loadComment();
+
+setInterval(loadComment, 5000);

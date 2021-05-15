@@ -7,7 +7,7 @@ app.use(express.static('public'))
 app.use(express.json())
 
 let comments = [
-    {username:"rady", comment: "Hello World"},
+    {username:"rady", comment: "សួស្តី!"},
    
 ];
 app.get('/post', (req, res) => {
